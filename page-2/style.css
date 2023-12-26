@@ -1,0 +1,136 @@
+@font-face {
+    font-family: "MonterstatBold";
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: "MonterstatRegular";
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(42, 191, 84, 1);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-family: "MonterstatRegular";
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 7px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 24px;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    background-color: rgba(42, 191, 84, 1);
+}
+.dropdown-content a:nth-child(2) {
+    margin-top: 10px;
+}
+.dropdown-content a:nth-child(3) {
+    margin-top: 10px;
+}
+
+.dropdown-content a:hover {background-color: #3c3b3b;}
+.dropdown:hover .dropdown-content {display: block;}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 16px;
+    padding-bottom: 16px;
+    background-color: rgba(42, 191, 84, 1);
+    align-items: center;
+    padding-top: 16px;
+    flex-wrap: wrap;
+}
+.header_container_1 {
+    display: flex;
+    align-items: center;
+}
+.header_container_1_1 h1 {
+    font-family: "MonterstatBold";
+}
+.header_container_1_1 p {
+    font-family: "MonterstatRegular";
+}
+.header_container_1_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: #fff;
+}
+.header_container_2 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.section-1-container-1-1 {
+    font-family: "MonterstatBold";
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.section-1-container-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.section-1-container-1 button {
+    width: 30%;
+}
+.section-1 {
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    font-family: "MonterstatBold";
+}
+.section-1-container-1 button {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 30px;
+    width: 100%;
+    background-color: rgba(66, 217, 108, 1);
+    color: #fff;
+    font-size: 15px;
+    font-family: "MonterStatBold";
+    border: none;
+    max-width: 282px;
+}
+.rb {
+    align-self: flex-end;
+    cursor: pointer;
+}
+.section-1-container-1-1-group {
+    display: flex;
+    gap: 20px;
+    font-size: 24px;
+}
+.section-1-container-1-1-group-textarea {
+    border: 6px solid #000;
+    resize: none;
+    min-height: 308px;
+    width: 100%;
+}
